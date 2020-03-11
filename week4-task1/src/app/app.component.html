@@ -1,0 +1,9 @@
+
+<div id="heading">
+    <span> {{title}} </span>
+    <span [ngStyle] = "{'color' : users.length == 0 ? 'red' : 'green'}">{{users.length}}</span>
+</div>
+<div>
+        <app-add-user (sendUserData)="receiveUserData($event)"></app-add-user>
+        <app-user-list [users_list]="users"></app-user-list>
+</div>

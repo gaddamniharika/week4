@@ -1,0 +1,9 @@
+<div id="userslist">
+<h3>Users List </h3> 
+<table *ngFor = "let User of users_list;even as isEven;index as id" id = "userinfo">
+    <tr>
+    <td [ngStyle] = "{'color' : isEven ? 'blue' : 'green'}" id="username">{{User}}</td>
+    <td class="material-icons" (click) = "delete(id)">clear</td>
+    </tr>
+</table>
+</div>  

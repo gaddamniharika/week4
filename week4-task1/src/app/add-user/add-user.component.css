@@ -1,0 +1,26 @@
+#userregister{
+                border: 1px solid black;
+                padding: 25px;
+                width: 300px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+             }
+input{
+       padding: 8px;
+       width :  280px;
+       margin-top: 15px;
+       margin-bottom: 10px;
+     }
+input[type = submit]
+{
+    width: 150px;
+    background-color: rgb(139, 214, 26);
+    border: none;
+    cursor: pointer;
+}
+input :hover
+{
+    border: 1px solid blue;
+}
+
